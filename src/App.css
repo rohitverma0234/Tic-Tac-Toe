@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.block{
+  height:150px;
+  width:150px;
+  border:5px solid black;
+  background-size:cover;
+  display:inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mark1 {
+  background-image: url("C:\Old_Harddrive_Data\E_drive\main-projects\Tic Tac Toe\reactgame\public\images\dot-final.png");
+}
+
+.mark2 {
+  background-image: url("C:\Old_Harddrive_Data\E_drive\main-projects\Tic Tac Toe\reactgame\public\images\cross-final.png");
 }
